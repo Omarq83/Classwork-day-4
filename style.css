@@ -1,0 +1,32 @@
+.Flexbox{
+
+    background-color: rgb(104, 13, 207);
+    color: rgb(0, 255, 166);
+    align-items: center;
+    }
+    
+    .container1 {
+      display: flex;
+      width: 200px;
+      height: 250px;
+      justify-content: flex-start;
+     flex-direction: row;
+     border: 100px;
+    }
+    
+    .container2 {
+      display: flex; 
+      align-content: flex-start;
+      align-items: flex-start;
+      width: 200px;
+      height: 250px;
+      border: 100px;
+    }
+    
+    .box {
+      background-color: rgb(21, 227, 117);
+      color: rgb(34, 11, 138);
+      padding: 30px;
+      margin: 40px;
+      border: 40px;
+    }
